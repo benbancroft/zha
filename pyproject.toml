@@ -14,13 +14,13 @@ readme = "README.md"
 license = {text = "Apache-2.0"}
 requires-python = ">=3.12"
 dependencies = [
-    "zigpy==0.69.0",
+    "zigpy @ git+https://github.com/benbancroft/zigpy@0.69.0",
     "bellows==0.40.6",
     "zigpy-znp==0.13.0",
     "zigpy-deconz==0.24.0",
     "zigpy-xbee==0.20.2",
     "zigpy-zigate==0.13.1",
-    "zha-quirks @ git+https://github.com/benbancroft/zha-device-handlers@75ac667f21f1a66cf8aaea02dc737f564202c2bc",
+    "zha-quirks @ git+https://github.com/benbancroft/zha-device-handlers@dev",
     "pyserial==3.5",
     "pyserial-asyncio-fast",
 ]
