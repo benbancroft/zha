@@ -20,7 +20,7 @@ dependencies = [
     "zigpy-deconz==0.24.1",
     "zigpy-xbee==0.21.0",
     "zigpy-zigate==0.13.2",
-    "zha-quirks==0.0.128",
+    "zha-quirks @ git+https://github.com/benbancroft/zha-device-handlers@sonoff-swv-dev",
     "pyserial==3.5",
     "pyserial-asyncio-fast",
 ]
